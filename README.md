@@ -1,4 +1,4 @@
-# Covid 19 Tracker
+# Countries Web app
 
 > This is a React/Redux Capstone project. The Countries Web App is a React/Redux App that displays Information about countries from all over the globe.
 
@@ -14,6 +14,9 @@
 
 ## Link to project online
 - [Online Version](https://dapper-dragon-8ab143.netlify.app/)
+
+## Link to project online
+- [Video](https://www.loom.com/share/d13a1c5edfc94ea1bf79cdae30335311)
 
 ## Getting Started
 
