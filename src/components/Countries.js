@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import '../styles/Countries.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCountries } from '../redux/countries/countries';
 import CountriesList from './CountriesComponents/CountriesList';
@@ -17,7 +16,7 @@ const Countries = () => {
   return (
 
     <div>
-      {loading && <div>Loading ...</div>}
+      {loading && <div className="loading">Loading ...</div>}
       {!loading && (<CountriesList />)}
 
     </div>
