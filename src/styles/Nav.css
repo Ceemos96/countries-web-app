@@ -2,16 +2,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px;
-  box-shadow: 3px 6px 12px 6px rgb(237, 233, 233);
-  background: #fff;
+  padding: 1em 2rem;
+  background: #d65f4d;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   top: 0;
+  gap:0.5rem
 }
 
 .flex-1 {
   flex: 1 1 40%;
+}
+
+.logo-name {
+  color: white;
 }
 
 .logo {
@@ -24,24 +28,19 @@
 .logo img {
   height: 72px;
   object-fit: cover;
-  margin-right: 12px;
 }
 
 .navLinks {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 60px;
+  margin-right: 5rem;
   flex-wrap: wrap;
 }
 
 .linkItems {
-  min-width: 65px;
-  margin-right: 30px;
-  border: 1px solid rgb(5, 5, 115, 0.9);
-  padding: 9px 9px;
-  border-radius: 6px;
   text-align: center;
+  margin-left: 3rem;
   transition: all 1s;
 }
 
@@ -49,10 +48,64 @@
   border-radius: 3px;
 }
 
+.single-item {
+  color: white;
+}
+
 .linkItems a:hover {
   color: #fff;
 }
 
 .linkItems:hover {
-  background: rgb(5, 5, 115, 0.9);
+  background: rgba(115, 49, 5, 0.9);
+}
+
+.dropbtn {
+  background-color: #fd5f5f;
+  color: white;
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #cd5b5b;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid white;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
